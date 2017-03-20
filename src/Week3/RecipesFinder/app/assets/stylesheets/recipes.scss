@@ -1,0 +1,72 @@
+// Place all the styles related to the recipes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.div {
+ 	/*position: absolute;*/
+ 	height: auto;
+ 	max-width: 1000px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 10px;
+ 	top: 50px;
+ 	background: #779395;
+ 	border: 3px solid #123113;
+
+ }
+
+ table {
+  align-self: center;
+  margin-left: auto;
+ 	margin-right: auto;
+ 	max-width: 99%;
+ 	border-collapse: collapse;
+ }
+
+ td {
+ 	padding: 12px;
+ }
+
+ footer {
+   overflow: auto;
+   position: relative;
+
+ }
+ .footer-bg {
+   background: #e2ed9c;
+   margin-top: 80px;
+ }
+ .copyright {
+   width: 740px;
+   padding: 0 10px 10px;
+   margin: auto;
+   color: #526118;
+ }
+ .copyright p {
+   margin: 0 0 5px 170px;
+ }
+
+ .logo {
+  margin-left: auto;
+  margin-right: auto;
+ 	width: 45%;
+ 	height: 45px;
+ 	padding: 8px;
+ 	background: white;
+ 	border: 2px solid blue;
+ }
+
+ .image {
+ 	width: 100px;
+ 	height: 100px;
+ 	padding: 5px;
+ 	background: white;
+ 	border: 2px solid black;
+ }
+
+ .even {
+ 	background-color: #a6d1a3
+ }
+ .odd {
+	background-color: #EEeEeE
+}

@@ -1,0 +1,22 @@
+<div class= <%=cycle('div')%> >
+<h1 class="logo">Seaching for - <%= @searcha %></h1>
+<% if @recipe.nil? %>
+<p>Your require find nothing</p>
+<% else%>
+<% @i=1%>
+<table border="1">
+	<tr>
+		<td>Image</td>
+		<td>Title</td>
+		<td>Social rank</td>
+	</tr>
+	<% @recipe.each do |r|%>
+	<tr class=<%= cycle('even', 'odd') %> >
+		<td><%= link_to sanitize(image_tag(r["image_url"],class:"image")),r["source_url"]%></td>
+		<td><%= link_to sanitize(r["title"]), r["source_url"] %></td>
+		<td><%='%2i' % r["social_rank"]%></td>
+	</tr>
+	<% end%>
+</table>
+<% end%>
+</div>
